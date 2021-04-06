@@ -15,9 +15,9 @@ MAX_STR_LENGTH_4 = 10
 
 # generate random strings only containing characters 'a' and 'b' of specified length
 def generate_random_string(length):
-  s = ''
-  for x in range(length):
-    s += chr(97 + random.randint(0, 1))
+  s = ''                                  # varaible to hold the string
+  for x in range(length):                 # until the length of the string
+    s += chr(97 + random.randint(0, 1))   # pick a/b and add to the string
   return s
 
 
@@ -39,7 +39,7 @@ def generate_valid_string(length):
   return s
 
 
-# generate strings which do not belong to language but looks like it belongs to the language
+# generate strings which looks like it belongs to the language but doesn't upon closer inspection
 def generate_quasi_string(length):
   s = generate_valid_string(length - 1)   # generate valid string of (length - 1) length
   j = random.randint(0, length - 2)        # get a random integer between [0, length -2]
