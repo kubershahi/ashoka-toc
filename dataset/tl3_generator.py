@@ -1,3 +1,6 @@
+# program to generate test language 3 i.e words having characters only 'a', 'b', and 'c', and lenght
+# multiple of 3.
+
 import random
 
 NUMBER_OF_SAMPLES_1 = 500
@@ -13,7 +16,7 @@ def generate_random_string(length):
   return s
 
 
-# function to check whether the generated string is valid or not
+# function to check whether the generated string is valid or not i.e length multiple of 3 or not
 def is_valid(string):
   return (len(string) % 3 == 0)
 

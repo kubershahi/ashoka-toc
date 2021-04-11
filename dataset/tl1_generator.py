@@ -1,4 +1,4 @@
-# program to generator test language 1 i.e words having no same neighboring characters of alphabet 
+# program to generate test language 1 i.e words having no same neighboring characters of alphabet 
 # 'a' and 'b'
 
 import random

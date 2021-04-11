@@ -1,3 +1,6 @@
+# program to generate test language 2 i.e words having no same neighboring characters of alphabet 
+# 'a', 'b', and 'c'
+
 import random
 
 NUMBER_OF_SAMPLES_1 = 50
