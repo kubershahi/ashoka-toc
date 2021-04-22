@@ -1,4 +1,4 @@
-# program to generate test language 3 i.e words having characters only 'a', 'b', and 'c', and lenght
+# program to generate test language 3 i.e words having characters only 'a', 'b', and 'c', and length
 # multiple of 3.
 
 import random
@@ -31,7 +31,7 @@ for x in range(NUMBER_OF_SAMPLES_1):
   targetValue = int(is_valid(s))
   f.write(s + ' ' + str(targetValue) + '\n')
 
-# generate random strings of length 6 to 10
+# generate random strings of length 6 to 15
 for x in range(NUMBER_OF_SAMPLES_2):
   l = random.randint(MAX_STR_LENGTH_1 + 1, MAX_STR_LENGTH_2)
   s = generate_random_string(l)
