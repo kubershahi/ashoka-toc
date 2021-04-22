@@ -1,4 +1,4 @@
-# program to generate test language 3 i.e words having only characters  'a', 'b', and 'c', and length
+# program to generate test language 3 i.e words only having characters  'a', 'b', and 'c', and are length
 # multiple of 3.
 
 import random
