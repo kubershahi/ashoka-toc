@@ -1,5 +1,5 @@
 # program to generate test language 4 i.e words only having characters 'a', 'b', and 'c', 
-# and which has substring 'bac'
+# and substring 'bac'
 
 import random
 
