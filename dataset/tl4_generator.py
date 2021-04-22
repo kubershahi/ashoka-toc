@@ -10,7 +10,7 @@ MAX_STR_LENGTH_1 = 5
 MAX_STR_LENGTH_2 = 12
 MAX_STR_LENGTH_3 = 12
 
-# generate random strings containing characters 'a', 'b', and 'c'
+# generate random strings only containing characters 'a', 'b', and 'c'
 def generate_random_string(length):
   s = ''
   for x in range(length):
