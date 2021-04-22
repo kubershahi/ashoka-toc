@@ -1,4 +1,4 @@
-# program to generate test language 4 i.e words having characters only 'a', 'b', and 'c', 
+# program to generate test language 4 i.e words only having characters 'a', 'b', and 'c', 
 # and which has substring 'bac'
 
 import random
