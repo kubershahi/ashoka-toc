@@ -25,7 +25,6 @@ def run_DFA(string):
   curr_state = 0
   for char in s:
     curr_state = DFA[curr_state][char]
-
   return (curr_state == 1 or curr_state == 2)
 
 # def DFA(pos, char):
